@@ -12,7 +12,9 @@ CONTENTS :
         2. Top Section
         3. Navigation
         4. Middle Section
-        5. Middle Section
+        5. Owl Crousel
+        5. Middle1 Section
+        6. About
 
 
 
@@ -143,7 +145,7 @@ body{
 
 .middle{
     background-color: #fff;
-    height:100vh;
+    height:80vh;
 }
 
 #owl-demo .item img{
@@ -226,3 +228,143 @@ body{
 }
 
 
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            5.  Middle1 Section
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+.headpara h2 {
+    text-align: center;
+    margin: 5px 0 0 0;
+    color: #847474;
+    font-weight: bold;
+    font-size: 26px;
+}
+.headpara p{
+    text-align: center;
+    font-size: 13px;
+    margin: 18px 0 10px 0;
+    font-weight: 600;
+    color: #847474;
+}
+.apple-image1{
+    margin: 25px 0 0 0;
+
+}
+.apple-image2{
+    margin: 25px 0 0 0;
+}
+
+.para {
+    text-align: center;
+    color: #847474;
+    font-weight: bold;
+    font-size: 27px;
+    margin: 94px 0 0 71px;
+}
+.image4{
+    margin: 25px 0 0 0;
+}
+.image5{
+    margin: 50px 0 0 0;
+    height: 532px;
+}
+.big-heading{
+    color: #847474;
+    font-weight: bold;
+    font-size: 90px;
+    margin: 10px 0 0 10px;
+    text-transform: capitalize;
+}
+.bar{
+    display: block;
+    height: 2px;
+    width: 25px;
+    background-color: #847474;
+    margin: -12px 0 0 357px;
+}
+.name{
+    margin: -14px 0 0 388px;
+    font-size: 16px;
+    position: absolute;
+}
+.image6{
+    width: 75%;
+    margin: 61px 0 0 0;
+}
+.ti-instagram{
+    margin: 78px 0 0 77px;
+    display: block;
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+.insta{
+    float: left;
+    margin: 78px 0 0 8px;
+    font-size: 16px;
+    color: #847474;
+    text-transform: uppercase;
+}
+.insta b{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            5. About
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+.about-heading{
+    margin: 15px 0 0 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: #847474;
+
+}
+
+.ti-user{
+    display: block;
+    margin: 60px 0 0 0;
+    font-size: 35px;
+}
+.links{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px;
+    display: inline-block;
+    margin: -9px 0 0 -12px;
+    color: #847474;
+}
+.user{
+    width: 35%;
+
+}
+.user-name{
+    color: #847474;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 25px 0 0 0;
+}
+.location{
+    margin: 15px 0 0 0;
+    font-weight: 600;
+}
+.user-description{
+    font-size: 12px;
+    margin: 15px 10%;
+    color: #696a6b;
+    line-height: 18px;
+    width: 80%;
+    word-spacing: 3px;
+}
+.user-bar{
+    display: block;
+    height: 2px;
+    width: 25px;
+    background-color: #847474;
+    margin: 0 0 0 155px;
+}
