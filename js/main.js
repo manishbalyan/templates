@@ -43,12 +43,6 @@ $(document).ready(function() {
     stagePadding:30,
     smartSpeed:450
 
-    // "singleItem:true" is a shortcut for:
-    // items : 1,
-    // itemsDesktop : false,
-    // itemsDesktopSmall : false,
-    // itemsTablet: false,
-    // itemsMobile : false
 
   });
 
