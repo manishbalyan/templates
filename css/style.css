@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 @import url("reset.css");
-@import url("responsive.css");
 @import url("themify-icons.css");
 
 /*============================================================================================
@@ -33,13 +32,7 @@ CONTENTS :
 body{
     font-family: 'Open Sans', sans-serif;
 }
-#main-container-scroller{
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
+
 #loader{
     width: 100%;
     height: 100%;
@@ -136,6 +129,9 @@ body{
     border-bottom: 1px solid #fff;
     text-decoration: none;
     color:#fff;
+}
+.icon-bar{
+    background-color: #fff !important;
 }
 
 
@@ -250,12 +246,31 @@ body{
     font-weight: 600;
     color: #847474;
 }
-.apple-image1{
-    margin: 25px 0 0 0;
-
+.img-large{
+    overflow: hidden;
+    background-color: black;
 }
-.apple-image2{
-    margin: 25px 0 0 0;
+.img-large img{
+    opacity: 1;
+    transform: scale(1.2);
+    transition: all 0.6s;
+}
+.img-large:hover img{
+   opacity: 0.4;
+   transform: scale(1);
+}
+.img-small{
+    overflow: hidden;
+    background-color: black;
+}
+.img-small img{
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.6s;
+}
+.img-small:hover img{
+    opacity: 0.4;
+    transform: scale(1.2);
 }
 
 .para {
@@ -265,11 +280,8 @@ body{
     font-size: 27px;
     margin: 94px 0 0 71px;
 }
-.image4{
-    margin: 25px 0 0 0;
-}
+
 .image5{
-    margin: 50px 0 0 0;
     height: 532px;
 }
 .big-heading{
@@ -321,7 +333,7 @@ body{
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ***********************************************************************************************/
 .about{
-    background-color: #f7f7f7;
+    background-color: #e8e8e8;
 }
 
 .about-heading{

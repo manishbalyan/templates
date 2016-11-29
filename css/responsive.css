@@ -4,10 +4,132 @@ RESPONSIVE STYLE
 ==============================================================================================
 =============================================================================================*/
 
+
+/* ###########################################################################################
+lg layout
+##############################################################################################*/
+@media (max-width: 480px) {
+ .topText p {
+  font-size: 21px !important;
+  margin: -18px 0 0 9px !important;
+
+ }
+ .topText h1 {
+  font-size: 49px !important;
+
+ }
+ .topText a {
+  margin: 155px 0 0 50px !important;
+ }
+ .item a {
+  left: 102px !important;
+  margin: 23px 0 0 0 !important;
+ }
+}
+
 /* ########################################################################################### 
 xs layout 
 ##############################################################################################*/
 @media (max-width: 768px) {
+ .mainnav{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.54);
+  z-index: 10000;
+  height: 100%;
+  position: fixed;
+  top: 60px;
+  left: 0;
+
+ }
+ .mainnav li{
+  width: 100%;
+ }
+ .mainnav li a{
+  text-align: center;
+  margin: 4px 0px 0 0px;
+  padding: 10px 0 10px 0;
+ }
+ .topText h1{
+  font-size: 68px;
+  margin: 8px 0 0 6px;
+ }
+ .topText p{
+  font-size: 29px;
+  margin: 10px 0 0 11px;
+ }
+ .topText a{
+  margin: 170px 0 0 82px;
+ }
+ .item a{
+  left: 156px;
+  margin: 38px 0 0 0;
+ }
+ .item h1{
+  font-size: 24px;
+  left: 57px;
+ }
+ .item p{
+  font-size: 10px;
+  margin: 0 0 0 6px;
+ }
+ .middle{
+  height: auto;
+ }
+ .top{
+  height:90vh;
+ }
+ .para{
+  font-size: 26px;
+  margin: 46px 0 25px -3px;
+ }
+ .image5 {
+  height: 290px;
+ }
+ .img-small{
+  width: 100%;
+  margin: 62px 0 0 0;
+ }
+ .ti-instagram {
+  margin: 24px 0 0 61px;
+
+ }
+ .insta {
+  margin: 24px 0 0 6px;
+
+ }
+ .big-heading{
+  font-size: 39px;
+  margin: 10px 0 0 34px;
+ }
+ .image6 {
+  width: 100%;
+  margin: 48px 0 0 0;
+ }
+ .user-bar {
+  margin: 0 0 10px 174px;
+ }
+ .name {
+  margin: -14px 0 0 138px;
+ }
+ .bar {
+  margin: -12px 0 0 89px;
+ }
+ .form h2{
+  margin: -38px 0 18px 0;
+ }
+ .form p{
+  margin: 7% 0 7% 23%;
+  width: 54%;
+ }
+ .form input{
+  width: 70%;
+ }
+ .form button{
+  width: 20%;
+ }
+ .footer h2{
+  margin: 10% 0 0 0;
+ }
 
  }
 

@@ -12,11 +12,7 @@ $( window ).load(function() {
 Smooth Scroll
 //////////////////////////////////////////////////////////////////////////////////
 */
-  Scrollbar.initAll({
-    speed : 2,
-    damping : 0.03,
-    overscrollDamping : 0.06
-  }); 
+
 
 /*
 //////////////////////////////////////////////////////////////////////////////////
@@ -47,3 +43,9 @@ $(document).ready(function() {
   });
 
 });
+
+$(".mainnav li").click(function () {
+$('.navbar-toggle').click();
+})
+
+
