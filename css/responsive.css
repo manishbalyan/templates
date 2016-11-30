@@ -8,24 +8,26 @@ RESPONSIVE STYLE
 /* ###########################################################################################
 lg layout
 ##############################################################################################*/
-@media (max-width: 480px) {
- .topText p {
-  font-size: 21px !important;
-  margin: -18px 0 0 9px !important;
 
- }
- .topText h1 {
-  font-size: 49px !important;
+@media (min-width: 1201px) {
 
- }
- .topText a {
-  margin: 155px 0 0 50px !important;
- }
- .item a {
-  left: 102px !important;
-  margin: 23px 0 0 0 !important;
- }
 }
+
+/* ###########################################################################################
+md layout
+##############################################################################################*/
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+}
+
+/* ###########################################################################################
+sm layout
+##############################################################################################*/
+@media (min-width: 769px) and (max-width: 992px) {
+
+}
+
 
 /* ########################################################################################### 
 xs layout 
@@ -49,6 +51,9 @@ xs layout
   margin: 4px 0px 0 0px;
   padding: 10px 0 10px 0;
  }
+ .topText {
+  float: none;
+ }
  .topText h1{
   font-size: 68px;
   margin: 8px 0 0 6px;
@@ -61,8 +66,7 @@ xs layout
   margin: 170px 0 0 82px;
  }
  .item a{
-  left: 156px;
-  margin: 38px 0 0 0;
+
  }
  .item h1{
   font-size: 24px;
@@ -90,23 +94,19 @@ xs layout
   margin: 62px 0 0 0;
  }
  .ti-instagram {
-  margin: 24px 0 0 61px;
+
 
  }
  .insta {
-  margin: 24px 0 0 6px;
+
 
  }
  .big-heading{
-  font-size: 39px;
-  margin: 10px 0 0 34px;
+
  }
  .image6 {
   width: 100%;
   margin: 48px 0 0 0;
- }
- .user-bar {
-  margin: 0 0 10px 174px;
  }
  .name {
   margin: -14px 0 0 138px;
@@ -135,24 +135,57 @@ xs layout
 
 
 /* ########################################################################################### 
-sm layout 
+xxs layout
 ##############################################################################################*/
-@media (min-width: 769px) and (max-width: 992px) {
 
-}
+@media (max-width: 480px) {
+ .topText p {
+  font-size: 21px;
+  text-align: center;
 
+ }
 
-/* ########################################################################################### 
-md layout 
-##############################################################################################*/
-@media (min-width: 993px) and (max-width: 1200px) {
+ .topText h1 {
+  font-size: 49px;
+  text-align: center;
 
-}
+ }
 
+ .topText a {
+  margin: 120px auto;
+  display: table;
+  background-color: rgba(0, 0, 0, 0.59);
 
-/* ########################################################################################### 
-lg layout
-##############################################################################################*/
-@media (min-width: 1201px) {
+ }
+
+ .item a {
+  left: 26%;
+ }
+ .insta {
+  font-size: 14px;
+  margin: 20px 16px;
+ }
+ .ti-instagram {
+  margin: 22px -3px 0 29px;
+ }
+ .big-heading {
+  font-size: 30px;
+  margin: 10px 0 0 34px;
+  /* text-align: center; */
+  line-height: 34px;
+  /* margin-top: 35px; */
+ }
+ .bar {
+  margin: 16px 0 0 67px;
+ }
+ .name {
+  margin: -21px 0 0 116px;
+ }
+ .user-bar {
+  margin-bottom: 10px;
+ }
+ .form button {
+  width: 26%;
+ }
 
 }
