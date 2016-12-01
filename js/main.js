@@ -48,4 +48,8 @@ $(".mainnav li").click(function () {
 $('.navbar-toggle').click();
 })
 
+$(".image6").mouseover(function(){
+  $(this).effect( "bounce", {times:1}, 550 );
+});
+
 
