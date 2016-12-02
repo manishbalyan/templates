@@ -53,3 +53,26 @@ $(".image6").mouseover(function(){
 });
 
 
+$(".boost-image").mouseover(function () {
+  $(this).fadeTo('slow', 0.5, function () {
+  })
+})
+$(".boost-image").mouseleave(function () {
+  $(this).fadeTo('slow', 0.8, function () {
+  })
+})
+$(".boost-heading").mouseover(function () {
+  $(this).animate({
+    fontSize : '50px'
+  }, 800)
+})
+
+$(".boost-heading").mouseleave(function () {
+  $(this).animate({
+    fontSize : '25px'
+  }, 800)
+})
+
+
+
+
