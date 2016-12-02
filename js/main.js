@@ -74,5 +74,10 @@ $(".boost-heading").mouseleave(function () {
 })
 
 
+// $('#buy').hover(
+//     function(){ $(this).addClass('icon') }
+//
+// )
+
 
 

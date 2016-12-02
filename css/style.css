@@ -73,6 +73,19 @@ body{
     color:#06f7c3;
     font-size: 101px;
 }
+.icon{
+    opacity: 0;
+}
+#buy:hover .icon{
+    opacity: 1;
+    color: #06f7c3;
+    font-size: 25px;
+
+
+}
+#buy:hover .topText a{
+    font-size: 20px;
+}
 
 #v2{
     font-weight: initial;
@@ -370,6 +383,7 @@ body{
 .user{
     width: 35%;
 
+
 }
 .user-name{
     color: #847474;
@@ -381,6 +395,10 @@ body{
     margin: 15px 0 0 0;
     font-weight: 600;
 }
+.imgWrap {
+    position: relative;
+
+}
 .user-description{
     font-size: 12px;
     margin: 15px 10%;
@@ -388,6 +406,19 @@ body{
     line-height: 18px;
     width: 80%;
     word-spacing: 3px;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+}
+.imgWrap:hover .user-description {
+    visibility: visible;
+    opacity: 1;
+    font-size: 14px;
+
+}
+.imgWrap:hover .user{
+    opacity: 0.2;
+
 }
 .user-bar{
     display: block;
@@ -407,7 +438,7 @@ body{
 }
 
 .boost-heading{
-    margin: 40px 0 0 0;
+    margin: 120px 0 0 0;
     font-size: 25px;
     font-weight: bold;
     color: #847474;
